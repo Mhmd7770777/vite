@@ -9,7 +9,7 @@ function App() {
     <BrowserRouter>
       <>hi
       <Routes>
-        <Route path="/IndexPage" exact element={<IndexPage/>}></Route>
+        <Route path="/" exact element={<IndexPage/>}></Route>
         <Route path="/translate" element={<TranslatePage/>}></Route>
       </Routes></>
     </BrowserRouter>
